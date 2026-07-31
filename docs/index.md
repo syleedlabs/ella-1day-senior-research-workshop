@@ -41,7 +41,7 @@ features:
     linkText: 열기
   - icon: 📋
     title: "2-2. PRD 설계도"
-    details: "봇이 무엇을 · 어떤 소스로 조사할지 한 장 명세"
+    details: "봇이 무엇을 · 어떤 소스로 조사할지 한 장 명세 + CLAUDE.md 활용법"
     link: /part2/2-2-prd
     linkText: 열기
   - icon: 🛡️
@@ -51,7 +51,7 @@ features:
     linkText: 열기
   - icon: 💡
     title: "2-4. 실무 팁"
-    details: "CLAUDE.md 활용법 · 인터뷰 기법 · 실무 프롬프트 4가지"
+    details: "이해할 때까지 인터뷰 기법 · 실무 프롬프트 4가지"
     link: /part2/2-4-tips
     linkText: 열기
 ---
