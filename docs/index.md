@@ -45,14 +45,14 @@ features:
     link: /part2/2-2-prd
     linkText: 열기
   - icon: 🛡️
-    title: "2-3. 하네스 · 루프 엔지니어링"
-    details: "출처 없는 숫자를 걸러내는 구조 + 네 가지 루프로 자동 반복까지"
+    title: "2-3. 하네스 엔지니어링"
+    details: "Generator/Evaluator — 출처 없는 숫자를 걸러내는 구조"
     link: /part2/2-3-harness
     linkText: 열기
-  - icon: 💡
-    title: "2-4. 실무 팁"
-    details: "이해할 때까지 인터뷰 기법 · 실무 프롬프트 4가지"
-    link: /part2/2-4-tips
+  - icon: 🔁
+    title: "2-4. 루프 엔지니어링"
+    details: "⭐ 네 가지 루프 — 무엇을 쥐고 무엇을 맡길 것인가"
+    link: /part2/2-4-loop
     linkText: 열기
 ---
 

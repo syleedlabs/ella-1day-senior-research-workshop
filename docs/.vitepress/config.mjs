@@ -35,14 +35,14 @@ export default defineConfig({
         items: [
           { text: '2-1. 에이전트', link: '/part2/2-1-agents' },
           { text: '2-2. PRD 설계도', link: '/part2/2-2-prd' },
-          { text: '2-3. 하네스 · 루프 엔지니어링', link: '/part2/2-3-harness' },
-          { text: '2-4. 실무 팁', link: '/part2/2-4-tips' },
+          { text: '2-3. 하네스 엔지니어링', link: '/part2/2-3-harness' },
+          { text: '2-4. 루프 엔지니어링', link: '/part2/2-4-loop' },
         ]
       },
       {
         text: '부록',
         items: [
-          { text: '리서치 소스 지도 · md 파일들 · 다음 단계', link: '/appendix' },
+          { text: '소스 지도 · md 파일들 · 실무 팁 · 다음 단계', link: '/appendix' },
         ]
       }
     ],
