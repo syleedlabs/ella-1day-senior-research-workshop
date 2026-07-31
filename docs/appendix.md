@@ -66,16 +66,20 @@
 | `.claude/agents/senior-compare-kr-global.md` | 비교 브리프 | 국내·해외 조사와 시차 해석 방식 | 그 에이전트로 일할 때 |
 | `.claude/agents/senior-biz-idea.md` | 기회 카드 | 조사 결과를 사업 언어로 옮기는 방식 | 〃 |
 | `.claude/agents/senior-weekly-news.md` | 주간 리포트 | 한 주 흐름을 훑고 묶는 방식 | 〃 |
-| `.claude/commands/*.md` | 이 커맨드 | **슬래시 커맨드** — 부르면 해당 에이전트로 전환 | 그 커맨드를 부를 때 |
+| `.claude/agents/senior-research-kr.md` | 국내 조사원 | 국내 자료만 조사 (서브에이전트) | 조사할 때 잠깐 |
+| `.claude/agents/senior-research-global.md` | 해외 조사원 | 일본·미국 조사 + 지표 도달 연도 (서브에이전트) | 〃 |
+| `.claude/agents/senior-source-check.md` | 검수자 | 출처·수치·시차 검수 (서브에이전트) | 결과물이 나온 뒤 |
+| `.claude/commands/*.md` | 이 커맨드 | **슬래시 커맨드** — 부르면 그 일의 절차를 실행 | 그 커맨드를 부를 때 |
+| `LOOP.md` (루트) | 루프 진단 | 2-3 실습 결과 | 나리님이 열어볼 때 |
 
 > `CLAUDE.md`가 무엇이고 어떻게 활용하는지는 [2-2 PRD 설계도](/part2/2-2-prd)에 정리했어요. 여기서는 **뭘 고칠 때 어느 파일을 여는지**만 봅니다.
 
 ### B-2. 큰 틀 → 작은 틀 (하이어라키)
 
 ```
-CLAUDE.md                    ← 프로젝트 상시 규칙 (항상 적용, 가장 넓음)
-  └ .claude/agents/          ← 에이전트 (이 봇은 무슨 일을 어떻게 하나)
-       └ .claude/commands/   ← 커맨드 (지금 이 순간 무엇을 부르나)
+CLAUDE.md                      ← 프로젝트 상시 규칙 (항상 적용, 가장 넓음)
+  └ .claude/commands/          ← 커맨드 (지금 이 순간 무슨 일을 하나)
+       └ .claude/agents/       ← 3모드 명세 + 서브에이전트 3종 (어떻게 하나)
 ```
 
 큰 틀이 작은 틀을 감싸요. `CLAUDE.md`의 규칙(출처 표기·미확인 라벨)이 늘 배경에 깔리고, 그 위에서 **에이전트**가 "무슨 일을 어떤 형식으로 하는가"를 정하고, **커맨드**가 그 에이전트를 불러옵니다.
@@ -111,7 +115,7 @@ CLAUDE.md                    ← 프로젝트 상시 규칙 (항상 적용, 가�
 
 **① 등록**
 
-클로드 코드에 이렇게 입력하세요.
+클로드 코드에 이렇게 입력해 보세요.
 
 ```
 /schedule 매주 월요일 아침 8시에 /senior-weekly-news 를 실행해서
@@ -149,5 +153,5 @@ CLAUDE.md                    ← 프로젝트 상시 규칙 (항상 적용, 가�
 ::: tip 오늘의 봇은 시작점이에요
 쓸수록 나리님 관심사에 맞춰지고, `output/`에 결과물이 쌓일수록 나리님만의 시니어 시장 아카이브가 됩니다.
 
-이번 주에 딱 한 번, 회의 전날 `/senior-compare-kr-global`을 불러보는 것부터 시작하세요.
+이번 주에 딱 한 번, 회의 전날 `/senior-compare-kr-global`을 불러보는 것부터 시작해 보세요.
 :::
