@@ -36,7 +36,7 @@ features:
     linkText: 열기
   - icon: 🧩
     title: "2-1. 에이전트"
-    details: "에이전트 · 서브에이전트 · 오케스트레이션"
+    details: "에이전트 · 서브에이전트 · 오케스트레이션 3가지 개념"
     link: /part2/2-1-agents
     linkText: 열기
   - icon: 📋

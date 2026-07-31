@@ -67,20 +67,26 @@
 | `.claude/agents/senior-compare-kr-global.md` | 비교 브리프 | 국내·해외 조사와 시차 해석 방식 | 그 에이전트로 일할 때 |
 | `.claude/agents/senior-biz-idea.md` | 기회 카드 | 조사 결과를 사업 언어로 옮기는 방식 | 〃 |
 | `.claude/agents/senior-weekly-news.md` | 주간 리포트 | 한 주 흐름을 훑고 묶는 방식 | 〃 |
-| `.claude/agents/senior-research-kr.md` | 국내 조사원 | 국내 자료만 조사 (서브에이전트) | 조사할 때 잠깐 |
-| `.claude/agents/senior-research-global.md` | 해외 조사원 | 일본·미국 조사 + 지표 도달 연도 (서브에이전트) | 〃 |
-| `.claude/agents/senior-source-check.md` | 검수자 | 출처·수치·시차 검수 (서브에이전트) | 결과물이 나온 뒤 |
+| `.claude/agents/senior-research-kr.md` | 국내 조사 **지시서** | 임시 작업자에게 줄 지시 — 국내만, 출처 붙이기, 해석 금지 | 조사할 때 잠깐 |
+| `.claude/agents/senior-research-global.md` | 해외 조사 **지시서** | 일본·미국 조사 + 지표 도달 연도 | 〃 |
+| `.claude/agents/senior-source-check.md` | 검수 **지시서** | 출처·수치·시차를 무엇으로 검사할지 | 결과물이 나온 뒤 |
 | `.claude/commands/*.md` | 이 커맨드 | **슬래시 커맨드** — 부르면 그 일의 절차를 실행 | 그 커맨드를 부를 때 |
 | `LOOP.md` (루트) | 루프 진단 | 2-3 실습 결과 | 나리님이 열어볼 때 |
 
 > `CLAUDE.md`가 무엇이고 어떻게 활용하는지는 [2-2 PRD 설계도](/part2/2-2-prd)에 정리했어요. 여기서는 **뭘 고칠 때 어느 파일을 여는지**만 봅니다.
+
+::: tip 지시서와 작업자는 다릅니다
+아래 세 파일은 **작업자가 아니라 지시서**예요. [2-1](/part2/2-1-agents)에서 본 서브에이전트(임시 작업자)는 부를 때마다 생겼다 사라지고, 이 파일들은 **그때 무엇을 시킬지 적어둔 문서**입니다.
+
+매번 지시를 새로 쓰지 않으려고 파일로 만들어뒀어요. 조사 소스를 바꾸고 싶으면 이 파일 한 줄만 고치면 됩니다.
+:::
 
 ### B-2. 큰 틀 → 작은 틀 (하이어라키)
 
 ```
 CLAUDE.md                      ← 프로젝트 상시 규칙 (항상 적용, 가장 넓음)
   └ .claude/commands/          ← 커맨드 (지금 이 순간 무슨 일을 하나)
-       └ .claude/agents/       ← 3모드 명세 + 서브에이전트 3종 (어떻게 하나)
+       └ .claude/agents/       ← 에이전트 3개 명세 + 임시 작업자 지시서 3종
 ```
 
 큰 틀이 작은 틀을 감싸요. `CLAUDE.md`의 규칙(출처 표기·미확인 라벨)이 늘 배경에 깔리고, 그 위에서 **에이전트**가 "무슨 일을 어떤 형식으로 하는가"를 정하고, **커맨드**가 그 에이전트를 불러옵니다.
