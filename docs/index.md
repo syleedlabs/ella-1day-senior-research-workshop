@@ -40,8 +40,8 @@ features:
     link: /part2/2-1-agents
     linkText: 열기
   - icon: 📋
-    title: "2-2. PRD 설계도"
-    details: "봇이 무엇을 · 어떤 소스로 조사할지 한 장 명세 + CLAUDE.md 활용법"
+    title: "2-2. PRD (제품 요구사항 문서)"
+    details: "AI에게 주는 업무 지시서 · PRD 요청법 · CLAUDE.md 활용법"
     link: /part2/2-2-prd
     linkText: 열기
   - icon: 🛡️
