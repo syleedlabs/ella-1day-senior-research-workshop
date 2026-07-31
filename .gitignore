@@ -1,0 +1,16 @@
+# 의존성 · 빌드 산출물
+node_modules/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+
+# 봇이 만든 리서치 결과물 — 개인 작업물이라 공개 레포에 올리지 않음
+# (폴더 자체는 남기려고 .gitkeep만 예외)
+output/*
+!output/.gitkeep
+
+# 워크숍 중 생성되는 개인 파일
+HABITS.md
+LOOP.md
+
+# OS
+.DS_Store
