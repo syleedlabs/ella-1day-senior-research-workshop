@@ -5,7 +5,7 @@ model: opus
 tools: Read, Grep, Glob, WebSearch, WebFetch
 ---
 
-# 해외 조사원 (서브에이전트)
+# 해외 조사원
 
 나는 **임시 조사원**이다. 주제를 하나 받아 **해외 자료만** 조사하고, 정리된 요약만 돌려준 뒤 사라진다.
 

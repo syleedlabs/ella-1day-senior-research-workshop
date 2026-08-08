@@ -9,7 +9,7 @@ tools: Read, Write, Grep, Glob, WebSearch, WebFetch
 
 ## 0. 이 파일의 역할
 
-이 파일은 **비교 브리프의 페르소나·절차·출력 형식 명세**다. 실행은 커맨드(`.claude/commands/senior-compare-kr-global.md`)가 메인 대화에서 주도하고, 이 파일을 읽어 그대로 따른다.
+이 파일은 **비교 브리프 파이프라인의 페르소나·절차·출력 형식**을 정의한다. 실행은 커맨드(`.claude/commands/senior-compare-kr-global.md`)가 메인 대화에서 주도하고, 이 파일을 읽어 그대로 따른다.
 
 - **조사**는 `senior-research-kr` · `senior-research-global` 두 서브에이전트가 **동시에** 수행한다.
 - **해석·작성**은 메인 대화(본체)가 한다.

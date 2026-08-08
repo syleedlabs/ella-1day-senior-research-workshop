@@ -135,7 +135,7 @@ claude
 이 폴더를 열어봤어요.
 
 · docs/          워크북 (지금 보고 계신 이 자료)
-· .claude/agents/  시니어 리서치 에이전트 명세들
+· .claude/agents/  시니어 리서치 에이전트 6개 (파이프라인 셋 + 조사원·검수자 셋)
 · .claude/commands/ 슬래시 명령어들
 · output/        조사 결과가 쌓일 곳 (아직 비어 있어요)
 
