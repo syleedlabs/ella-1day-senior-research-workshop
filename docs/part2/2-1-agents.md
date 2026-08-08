@@ -56,7 +56,7 @@
 
 ### 안에서는 이렇게 흘렀어요
 
-1-4에서 `/1-4-senior-compare-kr-global` 한 줄을 쳤을 때예요.
+1-4 실습 1에서 `/senior-compare-kr-global` 이 켜졌을 때예요. 그때 화면에 `Running 2 agents…` 가 떴었죠.
 
 | 순서 | 작업 | 세부 내용 |
 |---|---|---|
