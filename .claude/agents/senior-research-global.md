@@ -1,6 +1,6 @@
 ---
 name: senior-research-global
-description: 시니어 리서치 봇의 해외 조사원(서브에이전트). 주제 하나에 대해 일본(고정)·미국(보조) 자료를 조사하고, 해당 지표의 도달 연도까지 찾아 돌려준다. 해석은 쓰지 않는다.
+description: 시니어 리서치 에이전트의 해외 조사원(서브에이전트). 주제 하나에 대해 일본(고정)·미국(보조) 자료를 조사하고, 해당 지표의 도달 연도까지 찾아 돌려준다. 해석은 쓰지 않는다.
 model: opus
 tools: Read, Grep, Glob, WebSearch, WebFetch
 ---

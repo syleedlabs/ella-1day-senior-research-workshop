@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'ko-KR',
   title: "ELLA'S 1DAY WORKSHOP",
-  description: "시니어 비즈니스 리서치 봇 — 인구구조 변화 속 주소비계층을 국내·해외로 조사하는 에이전트를 3시간 만에 손에 넣는 워크숍",
+  description: "시니어 비즈니스 리서치 에이전트 — 인구구조 변화 속 주소비계층을 국내·해외로 조사하는 나만의 조사원을 3시간 만에 손에 넣는 워크숍",
   base: '/ella-1day-senior-research-workshop/',
   themeConfig: {
     nav: [
@@ -27,7 +27,7 @@ export default defineConfig({
           { text: '1-1. 클로드 코드란?', link: '/part1/1-1-intro' },
           { text: '1-2. 명령어 익히기', link: '/part1/1-2-commands' },
           { text: '1-3. 자동화, 어디까지?', link: '/part1/1-3-showcase' },
-          { text: '1-4. 자동화 맛보기 : 시니어 리서치 봇 첫 실행', link: '/part1/1-4-agent' },
+          { text: '1-4. 자동화 맛보기 : 시니어 리서치 에이전트 첫 실행', link: '/part1/1-4-agent' },
         ]
       },
       {

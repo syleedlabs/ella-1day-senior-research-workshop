@@ -1,6 +1,6 @@
 ---
 name: senior-research-kr
-description: 시니어 리서치 봇의 국내 조사원(서브에이전트). 주제 하나에 대해 국내 자료만 조사해 정리된 요약을 돌려준다. 해석·시사점은 쓰지 않는다.
+description: 시니어 리서치 에이전트의 국내 조사원(서브에이전트). 주제 하나에 대해 국내 자료만 조사해 정리된 요약을 돌려준다. 해석·시사점은 쓰지 않는다.
 model: opus
 tools: Read, Grep, Glob, WebSearch, WebFetch
 ---
