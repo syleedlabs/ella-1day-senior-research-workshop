@@ -113,11 +113,11 @@ CLAUDE.md                              ← 셋이 공유하는 헌법 (품질 �
 /senior-compare-kr-global              ← 나리님이 치는 슬래시 커맨드
   │
   ├─ .claude/agents/senior-compare-kr-global.md
-  │     └ 이 파이프라인의 명세 — 절차와 출력 형식
+  │     └ 이 파이프라인의 명세 — 절차와 출력 형식 (부름을 받고 전체를 진행)
   │
   ├─ senior-research-kr        ┐
-  ├─ senior-research-global    ├─ 지시서 셋
-  └─ senior-source-check       ┘   (실행될 때 서브에이전트가 뜸)
+  ├─ senior-research-global    ├─ 이들이 부르는 에이전트 셋
+  └─ senior-source-check       ┘   (부름받은 순간 = 서브에이전트)
 ```
 
 **PRD는 위에서 두 층에 나뉘어 적혀 있어요** — 셋이 공통으로 지킬 것은 `CLAUDE.md`에, 이 파이프라인만의 절차·형식은 `agents/senior-compare-kr-global.md`에. 어느 파일을 고쳐야 하는지는 [부록 B](/appendix#md-hierarchy)에 정리해뒀습니다.
