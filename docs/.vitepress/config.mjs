@@ -26,14 +26,14 @@ export default defineConfig({
         items: [
           { text: '1-1. 클로드 코드란?', link: '/part1/1-1-intro' },
           { text: '1-2. 명령어 익히기', link: '/part1/1-2-commands' },
-          { text: '1-3. 자동화, 어디까지?', link: '/part1/1-3-showcase' },
+          { text: '1-3. 업무위임, 어디까지 가능하지?', link: '/part1/1-3-showcase' },
           { text: '1-4. 자동화 맛보기 : 시니어 리서치 에이전트 첫 실행', link: '/part1/1-4-agent' },
         ]
       },
       {
         text: 'Part 2 — 심화',
         items: [
-          { text: '2-1. 에이전트 · 서브에이전트 · 오케스트레이션', link: '/part2/2-1-agents' },
+          { text: '2-1. 에이전트 구조', link: '/part2/2-1-agents' },
           { text: '2-2. PRD (제품 요구사항 문서)', link: '/part2/2-2-prd' },
           { text: '2-3. CLAUDE.md 활용법', link: '/part2/2-3-claude-md' },
           { text: '2-4. 하네스 엔지니어링', link: '/part2/2-4-harness' },

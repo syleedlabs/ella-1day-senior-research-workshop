@@ -25,7 +25,7 @@ features:
     link: /part1/1-2-commands
     linkText: 열기
   - icon: 🚀
-    title: "1-3. 자동화, 어디까지?"
+    title: "1-3. 업무위임, 어디까지 가능하지?"
     details: "강사 에이전트의 리서치·제안·콘텐츠 실물 쇼케이스"
     link: /part1/1-3-showcase
     linkText: 열기
@@ -35,13 +35,13 @@ features:
     link: /part1/1-4-agent
     linkText: 열기
   - icon: 🧩
-    title: "2-1. 에이전트"
+    title: "2-1. 에이전트 구조"
     details: "에이전트 · 서브에이전트 · 오케스트레이션 3가지 개념"
     link: /part2/2-1-agents
     linkText: 열기
   - icon: 📋
     title: "2-2. PRD (제품 요구사항 문서)"
-    details: "AI에게 주는 업무 지시서 · PRD 요청법 · CLAUDE.md 활용법"
+    details: "AI에게 주는 업무 지시서 · PRD 요청법 · 무엇을(What) vs 어떻게(How)"
     link: /part2/2-2-prd
     linkText: 열기
   - icon: 📜
