@@ -51,7 +51,7 @@ features:
     linkText: 열기
   - icon: 🛡️
     title: "2-4. 하네스 엔지니어링"
-    details: "⭐ Planner/Generator/Evaluator — 출처 없는 숫자를 걸러내는 구조"
+    details: "⭐ Planner / Generator / Evaluator — 루프 엔지니어링 개념까지"
     link: /part2/2-4-harness
     linkText: 열기
 ---
