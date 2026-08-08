@@ -42,7 +42,7 @@ export default defineConfig({
       {
         text: '부록',
         items: [
-          { text: '실무 팁 — 오래 쓸 프롬프트', link: '/appendix' },
+          { text: '실무 팁 · 참고 자료', link: '/appendix' },
         ]
       }
     ],
