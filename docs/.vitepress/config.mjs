@@ -35,8 +35,8 @@ export default defineConfig({
         items: [
           { text: '2-1. 에이전트 · 서브에이전트 · 오케스트레이션', link: '/part2/2-1-agents' },
           { text: '2-2. PRD (제품 요구사항 문서)', link: '/part2/2-2-prd' },
-          { text: '2-3. 하네스 엔지니어링', link: '/part2/2-3-harness' },
-          { text: '2-4. 루프 엔지니어링', link: '/part2/2-4-loop' },
+          { text: '2-3. CLAUDE.md 활용법', link: '/part2/2-3-claude-md' },
+          { text: '2-4. 하네스 엔지니어링', link: '/part2/2-4-harness' },
         ]
       },
       {

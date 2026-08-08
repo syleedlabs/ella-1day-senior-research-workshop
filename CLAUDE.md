@@ -118,4 +118,4 @@
 ## 워크숍 관련
 
 이 폴더에는 워크숍 워크북(`docs/`, VitePress)도 함께 들어 있다.
-`0-prologue-demo`, `1-2-practice`, `1-4-*`, `2-4-*` 커맨드는 워크숍 진행용이고, `senior-*` 과 `interview` 가 평생 쓰는 운영 커맨드다.
+`0-prologue-demo`, `1-2-practice`, `1-4-*` 커맨드는 워크숍 진행용이고, `senior-*` 과 `interview` 가 평생 쓰는 운영 커맨드다.

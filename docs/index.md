@@ -44,15 +44,15 @@ features:
     details: "AI에게 주는 업무 지시서 · PRD 요청법 · CLAUDE.md 활용법"
     link: /part2/2-2-prd
     linkText: 열기
-  - icon: 🛡️
-    title: "2-3. 하네스 엔지니어링"
-    details: "Generator/Evaluator — 출처 없는 숫자를 걸러내는 구조"
-    link: /part2/2-3-harness
+  - icon: 📜
+    title: "2-3. CLAUDE.md 활용법"
+    details: "매 세션 자동으로 읽히는 프로젝트 헌법 — 가장 오래 쓸 습관"
+    link: /part2/2-3-claude-md
     linkText: 열기
-  - icon: 🔁
-    title: "2-4. 루프 엔지니어링"
-    details: "⭐ 네 가지 루프 — 무엇을 쥐고 무엇을 맡길 것인가"
-    link: /part2/2-4-loop
+  - icon: 🛡️
+    title: "2-4. 하네스 엔지니어링"
+    details: "⭐ Planner/Generator/Evaluator — 출처 없는 숫자를 걸러내는 구조"
+    link: /part2/2-4-harness
     linkText: 열기
 ---
 
