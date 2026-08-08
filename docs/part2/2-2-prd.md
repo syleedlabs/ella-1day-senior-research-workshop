@@ -103,7 +103,28 @@ PRD를 요청하실 때 [부록 C-1](/appendix#interview)의 **인터뷰 프롬�
 
 ## [개념] PRD와 `CLAUDE.md`의 관계
 
-지금까지 본 명세는 **실제로 `CLAUDE.md`라는 파일 하나에 적혀 있어요.**
+### 그 명세가 어느 파일에 있나
+
+[2-1](/part2/2-1-agents)에서 본 구조를 **파일 관점**으로 다시 보면 이렇습니다.
+
+```
+CLAUDE.md                              ← 셋이 공유하는 헌법 (품질 기준·비교 축)
+  │
+/senior-compare-kr-global              ← 나리님이 치는 슬래시 커맨드
+  │
+  ├─ .claude/agents/senior-compare-kr-global.md
+  │     └ 이 파이프라인의 명세 — 절차와 출력 형식
+  │
+  ├─ senior-research-kr        ┐
+  ├─ senior-research-global    ├─ 서브에이전트 셋
+  └─ senior-source-check       ┘
+```
+
+**PRD는 위에서 두 층에 나뉘어 적혀 있어요** — 셋이 공통으로 지킬 것은 `CLAUDE.md`에, 이 파이프라인만의 절차·형식은 `agents/senior-compare-kr-global.md`에. 어느 파일을 고쳐야 하는지는 [부록 B](/appendix#md-hierarchy)에 정리해뒀습니다.
+
+### 매 세션 자동으로 읽히는 파일
+
+그중 `CLAUDE.md`가 특별한 이유가 있어요.
 
 `CLAUDE.md`는 클로드 코드가 **매 세션마다 자동으로 읽는** 프로젝트 설정 파일이에요. 나리님이 따로 말하지 않아도 항상 배경에 깔립니다. 1-4에서 브리프가 **매번 같은 형태로** 나온 이유가 이거예요.
 
