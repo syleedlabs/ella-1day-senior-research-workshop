@@ -27,7 +27,7 @@ export default defineConfig({
           { text: '1-1. 클로드 코드란?', link: '/part1/1-1-intro' },
           { text: '1-2. 명령어 익히기', link: '/part1/1-2-commands' },
           { text: '1-3. 업무위임, 어디까지 가능하지?', link: '/part1/1-3-showcase' },
-          { text: '1-4. 자동화 맛보기 : 시니어 리서치 에이전트 첫 실행', link: '/part1/1-4-agent' },
+          { text: '1-4. 에이전트 맛보기 : 시니어 리서치 첫 실행', link: '/part1/1-4-agent' },
         ]
       },
       {

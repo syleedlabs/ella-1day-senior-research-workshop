@@ -30,7 +30,7 @@ features:
     link: /part1/1-3-showcase
     linkText: 열기
   - icon: ✨
-    title: "1-4. 자동화 맛보기 : 시니어 리서치 에이전트 첫 실행"
+    title: "1-4. 에이전트 맛보기 : 시니어 리서치 첫 실행"
     details: "⭐ 오늘의 하이라이트 — 국내·해외 비교 브리프 · 기회 카드 · 주간 리포트"
     link: /part1/1-4-agent
     linkText: 열기
