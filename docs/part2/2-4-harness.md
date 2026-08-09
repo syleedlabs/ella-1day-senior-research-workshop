@@ -27,16 +27,6 @@ LangChain 팀이 자기네 코딩 에이전트로 여기에 올랐는데, **모�
 
 📎 [Improving Deep Agents with harness engineering](https://www.langchain.com/blog/improving-deep-agents-with-harness-engineering) — LangChain (2026-02-17)
 
-::: tip 이게 왜 큰 폭인가
-공개 순위표 상위권은 보통 **한 자릿수**로 갈립니다. 13.7점은 거기서 **모델 세대가 한 번 바뀔 때** 나오는 폭이에요.
-
-*"더 똑똑한 모델로 갈아탔을 때"* 기대할 만한 개선을, **모델은 그대로 두고 환경만 설계해서** 얻은 겁니다.
-:::
-
-::: tip 나리님 폴더도 같은 원리예요
-`.claude/agents/` 여섯 개, `.claude/commands/` 아홉 개, 그리고 `CLAUDE.md`. 1-4에서 브리프가 **그 형태로** 나온 건 모델이 특별해서가 아니라 **이것들이 깔려 있어서**입니다.
-:::
-
 ---
 
 그렇다면 왜 이런 구조가 필요할까요? AI에게 일을 그냥 시키면 어떤 문제가 생기는지부터 살펴볼게요.
