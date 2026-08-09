@@ -140,8 +140,3 @@
 | [Harness design for long-running application development](https://www.anthropic.com/engineering/harness-design-long-running-apps) *(Anthropic, 2026-03-24)* | 하네스 엔지니어링 원문. [2-4](/part2/2-4-harness)의 출처입니다 |
 | [Claude Code 루프 엔지니어링 가이드](https://www.modernweblabs.com/ko/insights/claude-code-loop-engineering) *(Modern Web Labs)* | 루프 4가지 유형과 토큰 관리 |
 
-::: tip 하나만 고르신다면
-**Claude 101**입니다. 오늘 쓰신 건 클로드 코드인데, 그 아래 깔린 클로드 자체를 이해하시면 **오늘 배운 게 다른 일에도 옮겨가요.**
-
-하네스 쪽은 [2-4](/part2/2-4-harness)를 다시 읽고도 더 궁금하실 때 펴시면 됩니다.
-:::
